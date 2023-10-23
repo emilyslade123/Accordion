@@ -1,0 +1,84 @@
+header {
+    font-size: 20px;
+}
+
+body {
+    font: 16px Calibri;
+}
+
+main {
+    min-height: 615px;
+    padding-top: 1px;
+    padding-left: 140px;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+
+nav {
+    float: left;
+    width: auto;
+    width: 125px;
+    margin-right: 20px;
+    top: 0px;
+    padding: 5px;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px;
+    padding-top: 2px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    width: 70px;
+    height: 80px;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 6px;
+    background-color: whiteSmoke; 
+}
+
+.card.colRed {
+    background-color: lavenderBlush;
+    border-color: red;
+    color: red;
+}
+
+.card.noHint {
+    background-color: white;
+}
+
+.card.hint {
+    background-color: gold;
+}
+
+.card.moveOne, .card.moveThree {
+    background-color: #75e3ff;
+}
+
+.card.selected {
+    background-color: #bfffff;
+}
+
+.congrats {
+	position: absolute;
+	top: 300px;
+	width: 550px;
+	height: 100px;
+	padding: 20px 10px;
+	text-align: center;
+    font-size: 70px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.checkboxLabel {
+    vertical-align: top;
+    font-size: 25px;
+}
